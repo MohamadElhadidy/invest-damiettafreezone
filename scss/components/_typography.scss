@@ -1,0 +1,18 @@
+@use '../custom' as *;
+
+.display-2{
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif; 
+    color:$black;
+    direction: rtl;
+
+    &--intro{
+        display:  inline-block;
+        text-align: justify;
+        text-justify: inter-word;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        }
+
+}
