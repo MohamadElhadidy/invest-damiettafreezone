@@ -10784,11 +10784,6 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
-@media (max-width: 575.98px) {
-  .btn-rounded {
-    display: none;
-  }
-}
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(38, 85, 240, 0.95), rgba(223, 226, 41, 0.95));
   color: #fff;
@@ -10799,6 +10794,12 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
   color: #000;
   direction: rtl;
+  text-align: left;
+}
+@media (max-width: 575.98px) {
+  .display-2 {
+    text-align: center;
+  }
 }
 .display-2--intro {
   display: inline-block;
@@ -10808,17 +10809,14 @@ textarea.form-control-lg {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
 }
+@media (max-width: 575.98px) {
+  .display-2--intro {
+    font-size: 1.5rem;
+  }
+}
 
 .menu {
   background: linear-gradient(to right, rgba(38, 85, 240, 0.95), rgba(223, 226, 41, 0.95));
-}
-.menu li {
-  padding: 0 0.7rem;
-}
-.menu a {
-  color: #fff !important;
-  text-transform: capitalize;
-  font-weight: 600;
 }
 
 .intro-section {

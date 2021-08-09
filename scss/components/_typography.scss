@@ -5,8 +5,16 @@
     font-family: 'Roboto', sans-serif; 
     color:$black;
     direction: rtl;
+    @include media-breakpoint-down(sm){
+        text-align: center;
+    }
+    text-align: left;
 
+    
     &--intro{
+        @include media-breakpoint-down(sm){
+            font-size: 1.5rem;
+        }
         display:  inline-block;
         text-align: justify;
         text-justify: inter-word;
